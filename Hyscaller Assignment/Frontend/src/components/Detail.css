@@ -1,0 +1,96 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  .property-image {
+    width: 56%;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+.property-price {
+    position: absolute;
+    margin-top: -432px;
+    margin-left: 57%;
+    color: blue;
+}
+.property-location {
+    position: absolute;
+    margin-top: -411px;
+    margin-left: 57%;
+    color: blue;
+}
+.property-about{
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 57%;
+    color: blue;
+
+}
+.property-description{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 57%;
+    color: black;
+
+
+}
+.edit-button{
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 57%;
+    color: black;
+}
+  
+.edit-button {
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 69%;
+    color: black;
+    padding: 10px;
+    height: 50px;
+    width: 122px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: blue;
+}
+.delete-button{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 80%;
+    color: black;
+    padding: 10px;
+    height: 50px;
+    width: 122px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: red;
+}
+.close-button {
+    margin-top: 9px;
+    margin-left: 10px;
+    padding: 12px;
+    border: none;
+    background-color: rgb(124, 124, 211);
+    font-weight: bold;
+    cursor: pointer;
+}
+.property-name {
+    margin-left: 15px;
+    font-size: 27px;
+    color: rgb(100, 171, 100);
+}
+  
+  

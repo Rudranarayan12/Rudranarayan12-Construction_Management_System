@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    margin-top: 6px;
+    height: 55px;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(41, 145, 185);
+}
+
+.left {
+    margin-left: 10px;
+}
+
+.input {
+    border-radius: 3px;
+    height: 28px;
+    width: 124px;
+    text-align: left;
+    border: none;
+}
+
+.right {
+    margin-right: 15px;
+}
+
+.right button {
+    height: 28px;
+    width: 56px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.details {
+    margin-top: 8px;
+    background-color: rgb(198, 230, 243);
+    width: 260px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    height: 31px;
+    margin-top: 3px;
+    margin-right: 10px;
+    width: 127px;
+    color: white;
+    background-color: rgb(65, 65, 212);
+    border: none;
+    cursor: pointer;
+}
+
+.details svg {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.property-cards-container {
+    margin-top: 7px;
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; 
+}
+
+.property-card {
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.property-card:nth-child(2) {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2); 
+}
+
+.property-card:nth-child(3) {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2); 
+}
+
+
